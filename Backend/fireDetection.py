@@ -13,7 +13,7 @@ def detect_fire(frame):
     contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     return mask, contours
 
-broker = "192.168.145.91"
+broker = "192.168.86.91"
 port = 1883
 topic = "api/deteksi"
 
